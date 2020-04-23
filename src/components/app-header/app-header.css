@@ -1,0 +1,23 @@
+.app-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 0 0 10px 0;
+}
+
+.app-header__title {
+	margin: 0;
+	font-family: 'Fredoka One', Arial, sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.1;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #3f51b5;
+}
+
+.app-header__counter {
+	font-size: 14px;
+	margin: 0;
+	color: rgba(0,0,0,.54);
+}

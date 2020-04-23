@@ -1,0 +1,31 @@
+.search-panel {
+	position: relative;
+}
+
+.search-panel__input {
+	width: auto;
+	height: 36px;
+	padding-left: 25px;
+	font-family: inherit;
+	font-size: 14px;
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,.36);
+}
+
+.search-panel__input:focus {
+	border-bottom: 2px solid rgba(0,0,0,.54);
+	outline: none;
+}
+
+.search-panel__label {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	color: rgba(0,0,0,.36);
+	line-height: 0;
+}
+
+.search-panel__input:focus+label {
+	color: rgba(0,0,0,.54);
+}
