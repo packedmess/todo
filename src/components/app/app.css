@@ -1,3 +1,21 @@
+@keyframes color-change-5x {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+
 * {
 	box-sizing: border-box;
 	/*outline: 1px solid red;*/
@@ -11,13 +29,13 @@ body {
 	line-height: 1.5;
 	color: #000000;
 	margin: 0;
-	padding: 30px 0;
-	background-color: #EFEFEF;
+	padding: 30px;
+	animation: color-change-5x 20s linear infinite alternate both;
 	overflow-x: hidden;
 }
 
 .todo-app {
-	width: 600px;
+	max-width: 600px;
 	margin: 0 auto;
 	padding: 20px;
 	background-color: #FFFFFF;

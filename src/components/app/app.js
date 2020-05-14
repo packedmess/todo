@@ -174,6 +174,7 @@ class App extends Component {
         </div>
 
         <TodoList 
+          filter={ this.state.filter }
           todos={ visibleItems }
           onDeleted={ this.deleteItem }
           onToggleImportant={ this.onToggleImportant }
